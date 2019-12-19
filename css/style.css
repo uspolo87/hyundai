@@ -1,0 +1,173 @@
+                    * {
+                        padding: 0;
+                        margin: 0;
+                    }
+                    
+                    body {
+                        overflow-x: hidden;
+                    }
+                    /* navbar css starts here */
+                    
+                    .logo-img {
+                        width: 100px;
+                    }
+                    
+                    .body-content {
+                        padding-top: 4%;
+                    }
+                    
+                    .navbar {
+                        padding: 0% 10% 0 16.55%;
+                        position: fixed;
+                        width: 100%;
+                        z-index: 9;
+                        border-bottom: 2px solid #0b2369;
+                    }
+                    
+                    .request-button {
+                        background-color: #0b2369;
+                        border-color: #0b2369;
+                        color: white;
+                        padding: 0.15rem 0.5rem;
+                        font-size: 0.975rem;
+                        line-height: 1.5;
+                        border-radius: 0.2rem;
+                    }
+                    /* navbar css ends here */
+                    /* form css starts here */
+                    
+                    .form-container {
+                        background: #0b2369;
+                        padding: 18% 4% 44% 6%;
+                        max-width: 330px;
+                    }
+                    
+                    .form-inner {
+                        padding: 5%;
+                        border: 4px solid white;
+                        border-radius: 25px;
+                    }
+                    
+                    .form-head {
+                        font-size: 17px;
+                        font-weight: 700;
+                        color: #fff;
+                    }
+                    
+                    .form-input-elements {
+                        width: 247px;
+                        height: 40px;
+                        font-size: 15px;
+                    }
+                    
+                    .submit-button {
+                        color: black;
+                        background: #fff;
+                    }
+                    /* dar details css starts here */
+                    
+                    .head-row h2 {
+                        font-size: 30px;
+                        color: #0b2369;
+                    }
+                    
+                    .cars-slide-carousel {
+                        border: 10px solid gray;
+                        border-radius: 4px;
+                        box-shadow: 0px 30px 25px #1c1c1db0;
+                    }
+                    
+                    .nav-item .request-button {
+                        margin-right: 15px;
+                        font-size: 15px;
+                        padding: 5px 14px;
+                        border-radius: 0;
+                    }
+                    
+                    .tab-content li {
+                        line-height: 25px;
+                        color: #0b2369;
+                        font-weight: 500;
+                        font-size: 14px;
+                    }
+                    
+                    .tab-content li:active {
+                        background: #0b2369;
+                    }
+                    
+                    a:hover {
+                        color: #ffffff !important;
+                    }
+                    
+                    .nav-pills .nav-link.active,
+                    .nav-pills .show>.nav-link:active {
+                        background-color: #0b2369 !important;
+                    }
+                    
+                    .tabs-container {
+                        padding-top: 4%;
+                    }
+                    
+                    .tab-pills-container {
+                        padding-left: 6%;
+                    }
+                    
+                    .about-company {
+                        padding-top: 4%;
+                    }
+                    
+                    .about-company-head {
+                        color: #0b2369;
+                        margin-left: 4%;
+                    }
+                    
+                    .about-company-desc {
+                        font-weight: 300;
+                        font-size: 14px;
+                        font-family: sans-serif;
+                        color: black;
+                        margin-left: 4%;
+                    }
+                    
+                    .video {
+                        margin-top: 7%;
+                    }
+                    
+                    .modal-button {
+                        border: 1px solid lightblue;
+                        border-radius: 5px;
+                    }
+                    
+                    .whatsapp-img {
+                        width: 60px;
+                    }
+                    
+                    .img-container {
+                        position: fixed;
+                        top: 74%;
+                        right: 4%;
+                    }
+                    
+                    .footer {
+                        background-color: #222;
+                        color: white;
+                    }
+                    
+                    .footer-row {
+                        padding-top: 3%;
+                    }
+                    
+                    .footer-row p {
+                        font-size: 14px;
+                    }
+                    
+                    @media screen and (max-width: 767px) {
+                        .form-container {
+                            background: #0b2369;
+                            padding: 18% 4% 2% 6%;
+                            max-width: 100%;
+                        }
+                        .footer-p {
+                            margin-top: 3%;
+                        }
+                    }
